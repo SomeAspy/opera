@@ -101,6 +101,10 @@ a:hover {
     justify-content: flex-end;
   }
 
+#fsrn {
+  font-size: 13rem;
+}
+
   #boxer,
   #award {
     flex: 1;
