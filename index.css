@@ -1,29 +1,33 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #131019;
-    background-image: url("obg.jpg");
-    background-position: 50% 0;
-    background-repeat: repeat-y;
-    background-size: 100%;
-    font-weight: 700;
-    font-family: Chakra Petch,sans-serif;
+  background-color: #131019;
+  background-image: url("obg.jpg");
+  background-position: 50% 0;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-weight: 700;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+h1, h2, h4 {
+  color: #FA1E4E;
+  line-height: 1;
+  letter-spacing: .02em;
 }
 
 h1 {
-    color: #FA1E4E;
-    font-size: 5rem;
-    line-height: 1;
-    letter-spacing: .02em;
+  font-size: 5rem;
 }
 
 h2 {
-  color: #FA1E4E;
   font-size: 4rem;
-  line-height: 1;
-  letter-spacing: .02em;
+}
+
+h4 {
+  font-size: 1.9rem;
 }
 
 h3 {
@@ -31,25 +35,19 @@ h3 {
   font-size: 2rem;
 }
 
-h4 {
+p {
   color: #FA1E4E;
-  font-size: 1.9rem;
-  line-height: 1;
-  letter-spacing: .02em;
+  font-size: 1.7rem;
+  line-height: 1.3;
 }
 
-p {
-    color: #FA1E4E;
-    font-size: 1.7rem;
-    line-height: 1.3;
-  }
-
 a {
-    color: #8c7db0;
-    text-decoration: none;
-  }
+  color: #8c7db0;
+  text-decoration: none;
+}
+
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #center {
@@ -60,20 +58,35 @@ a:hover {
   font-size: 1.7rem;
 }
 
-.tos {
+.rebuttal {
   text-align: center;
 }
 
-.tos h1 {
-  font-size: 3.3rem;
+.rebuttal h1 {
+  font-size: 3rem;
 }
 
-.tos h3 {
-  font-size: 2.5rem;
+.rebuttal h3 {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: #FA1E4E;
+  color: #000;
+  font-size: 1.7rem;
+  padding: 1.5rem 4.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color .25s ease-in-out;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #cc173e;
 }
 
 @media screen and (min-width: 800px) {
-
   .tar {
     text-align: right;
   }
@@ -85,46 +98,40 @@ a:hover {
   }
 
   .right {
-    justify-content: right;
+    justify-content: flex-end;
   }
 
-  #boxer {
+  #boxer,
+  #award {
     flex: 1;
     max-width: 50%;
     word-break: keep-all;
   }
 
-  #award {
-    flex: 1;
-    max-width: 30%;
-    word-break: keep-all;
+  #awardp {
+    font-size: 2.2rem;
   }
 
-#awardp {
-  font-size: 2.2rem;
-}
-/* GEOMETRY DASH REFERENCE!!??? */
-
-#align {
+  #align {
     display: flex;
     justify-content: center;
     align-items: center;
-  height: 50vh;
+    height: 50vh;
   }
 
-#flex {
+  #flex {
     display: flex;
     align-items: center;
     transform: scale(1.1);
     width: 80%;
   }
-  
-#left {
+
+  #left {
     flex: 1;
     max-width: 50%;
   }
-  
-#right {
+
+  #right {
     flex: 1;
     word-break: keep-all;
     max-width: 50%;
@@ -133,26 +140,23 @@ a:hover {
 
 @media screen and (max-width: 799px) {
   body {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 
   h1 {
-    color: #FA1E4E;
     font-size: 3.8rem;
-}
+  }
 
-h2 {
-  font-size: 3.2rem;
-}
+  h2 {
+    font-size: 3.2rem;
+  }
 
-h3 {
-  font-size: 1.7rem;
-}
+  h3 {
+    font-size: 1.7rem;
+  }
 
-p {
+  p {
     font-size: 1.6rem;
   }
 }
