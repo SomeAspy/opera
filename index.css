@@ -5,6 +5,9 @@ html {
 body {
     background-color: #131019;
     background-image: url("obg.jpg");
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    background-size: 100%;
     font-weight: 700;
     font-family: Chakra Petch,sans-serif;
 }
@@ -57,6 +60,18 @@ a:hover {
   font-size: 1.7rem;
 }
 
+.tos {
+  text-align: center;
+}
+
+.tos h1 {
+  font-size: 3.3rem;
+}
+
+.tos h3 {
+  font-size: 2.5rem;
+}
+
 @media screen and (min-width: 800px) {
 
   .tar {
@@ -78,6 +93,17 @@ a:hover {
     max-width: 50%;
     word-break: keep-all;
   }
+
+  #award {
+    flex: 1;
+    max-width: 30%;
+    word-break: keep-all;
+  }
+
+#awardp {
+  font-size: 2.2rem;
+}
+/* GEOMETRY DASH REFERENCE!!??? */
 
 #align {
     display: flex;
@@ -102,5 +128,31 @@ a:hover {
     flex: 1;
     word-break: keep-all;
     max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h1 {
+    color: #FA1E4E;
+    font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.6rem;
   }
 }
