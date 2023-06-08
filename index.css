@@ -87,6 +87,14 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
+
+  .vbg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("vbg.png");
+    background-position: 50% 0;
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+
   .tar {
     text-align: right;
   }
