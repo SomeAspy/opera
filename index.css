@@ -148,6 +148,10 @@ a:hover {
     word-break: keep-all;
     max-width: 50%;
   }
+
+  .important {
+    font-size: 0rem;
+  }
 }
 
 @media screen and (max-width: 799px) {
@@ -170,5 +174,9 @@ a:hover {
 
   p {
     font-size: 1.6rem;
+  }
+
+  .important {
+    font-size: 3.2rem;
   }
 }
