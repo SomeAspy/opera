@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Chakra Petch';
+  src: url('VT323-Regular.woff2') format('woff2');
+}
+
 html {
   font-size: 62.5%;
 }
@@ -82,7 +87,7 @@ a:hover {
   background-position: center center;
   border-radius: 10px;
   border-style: solid;
-  border-color: #fa1e4e93; 
+  border-color: #fa1e4e93;
 }
 
 .round-bg-b{
