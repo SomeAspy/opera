@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Chakra Petch';
-  src: url('VT323-Regular.woff2') format('woff2');
+  src: url('ChakraPetch-Bold.ttf');
 }
 
 html {
@@ -13,7 +13,7 @@ body {
   background-position: 50% 0;
   background-repeat: repeat-y;
   background-size: 100%;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Chakra Petch", sans-serif;
 }
 
@@ -24,7 +24,7 @@ h1, h2, h4 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.6rem;
 }
 
 h2 {
