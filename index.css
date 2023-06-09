@@ -58,6 +58,11 @@ a:hover {
   font-size: 1.7rem;
 }
 
+.filler {
+  position: fixed;
+  z-index: -10;
+}
+
 .rebuttal {
   text-align: center;
 }
@@ -68,6 +73,26 @@ a:hover {
 
 .rebuttal h3 {
   font-size: 2rem;
+}
+
+.round-bg-a{
+  display: inline-block;
+  background-image: url(obg.png);
+  background-size: 40em;
+  background-position: center center;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #fa1e4e93; 
+}
+
+.round-bg-b{
+  display: inline-block;
+  background-image: url(obg.png);
+  background-size: 40em;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #fa1e4e93;
+  padding-bottom: 20px;
 }
 
 .button {
@@ -87,13 +112,6 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
-
-  .vbg {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url("vbg.png");
-    background-position: 50% 0;
-    background-repeat: repeat-y;
-    background-size: 100%;
-  }
 
   .tar {
     text-align: right;
